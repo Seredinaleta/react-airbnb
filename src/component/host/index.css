@@ -1,0 +1,42 @@
+.host {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.host__header {
+  display: flex;
+  gap: 20px;
+}
+.host__header__info {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.host__image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.host__header__info__sub{
+  display: flex;
+  gap: 12px;
+}
+.host__contacts {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.host__contacts:not(:last-child)::after{
+  content: "";
+  width: 4px;
+  height: 4px;
+  display: block;
+  background-color: black;
+  border-radius: 50%;
+
+}
+.host__info {
+  font-size: 16px;
+  line-height: calc(20 / 16);
+}

@@ -1,0 +1,31 @@
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.price__header {
+  display: flex;
+  gap: 12px;
+}
+
+.price__value {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: calc(50.4 / 42);
+  color: #000004;
+}
+.price__value--discount {
+  color: #6C757D;
+  text-decoration: line-through;
+}
+.price__list {
+  display: grid;
+  gap: 12px;
+}
+.price__list-item {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #DEE2E6;
+  font-size: 16px;
+  display: flex;
+  gap: 12px;
+}

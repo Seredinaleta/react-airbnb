@@ -1,0 +1,11 @@
+
+.amenity {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.amenity__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

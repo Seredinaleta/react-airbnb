@@ -1,0 +1,20 @@
+
+.nearby {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.nearby__link {
+  color: black;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+
+
+  cursor: pointer;
+  transition: color 0.7s;
+}
+.nearby__link:focus {
+color: blue;
+}
